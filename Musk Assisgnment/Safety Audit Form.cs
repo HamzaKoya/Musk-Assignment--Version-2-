@@ -30,7 +30,7 @@ namespace Musk_Assisgnment
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Safety_Audit_Form_2 newSafetyAuditForm2 = new Safety_Audit_Form_2();
+             Safety_Audit_Form_2 newSafetyAuditForm2 = new Safety_Audit_Form_2();
             this.Hide();
             newSafetyAuditForm2.ShowDialog();
             this.Show();
