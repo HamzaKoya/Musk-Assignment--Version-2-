@@ -49,11 +49,11 @@ namespace Musk_Assisgnment
             SqlDataAdapter sda = new SqlDataAdapter("select count(*) from login where username = '" + usernameTextBox.Text + "' and password= '" + passwordTextBox.Text + "'", conn);
             DataTable dt = new DataTable();
             sda.Fill(dt);
-            if (dt.Rows[0][0].ToString() == "i")
+            if (dt.Rows[0][0].ToString() == "1")
             {
                 this.Hide();
                 Dashboard mm = new Dashboard();
-                this.Show();
+                mm.Show();
                 //(new Dashboard()).Show(); 
             }
             else
