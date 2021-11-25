@@ -67,14 +67,14 @@ namespace Musk_Assisgnment
                 //set sqlCommand's properties 
                 sqlCommand.CommandType = CommandType.Text;
 
-                sqlCommand.Parameters.Add(new SqlParameter("Site", site));
+                sqlCommand.Parameters.Add(new SqlParameter("SiteName", site));
                 sqlCommand.Parameters.Add(new SqlParameter("CompletedBy", completedby));
-                sqlCommand.Parameters.Add(new SqlParameter("Work Area", workarea));
-                sqlCommand.Parameters.Add(new SqlParameter("Job Description", jobdescription));
+                sqlCommand.Parameters.Add(new SqlParameter("WorkArea", workarea));
+                sqlCommand.Parameters.Add(new SqlParameter("JobDescription", jobdescription));
                 sqlCommand.Parameters.Add(new SqlParameter("Supervisor", supervisor));
                 sqlCommand.Parameters.Add(new SqlParameter("Inspector", inspector));
-                sqlCommand.Parameters.Add(new SqlParameter("Date", date));
-                sqlCommand.Parameters.Add(new SqlParameter("Type", type));
+                sqlCommand.Parameters.Add(new SqlParameter("InspectionDate", date));
+                sqlCommand.Parameters.Add(new SqlParameter("InspectionType", type));
 
                 //Execute the command
                 sqlCommand.ExecuteNonQuery();

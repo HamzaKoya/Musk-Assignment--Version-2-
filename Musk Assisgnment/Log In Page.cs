@@ -45,7 +45,8 @@ namespace Musk_Assisgnment
 
         private void LogIn_Button(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Z:\Musk Assignment V2\Musk Assisgnment\Database1.mdf;Integrated Security=True");
+          //  SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Z:\Musk Assignment V2\Musk Assisgnment\Database1.mdf;Integrated Security=True");
+            SqlConnection conn = new SqlConnection(Properties.Settings.Default.ConnectionString);
             SqlDataAdapter sda = new SqlDataAdapter("select count(*) from login where username = '" + usernameTextBox.Text + "' and password= '" + passwordTextBox.Text + "'", conn);
             DataTable dt = new DataTable();
             sda.Fill(dt);

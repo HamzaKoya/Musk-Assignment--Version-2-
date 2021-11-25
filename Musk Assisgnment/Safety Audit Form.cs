@@ -63,7 +63,7 @@ namespace Musk_Assisgnment
             string type = typetxt.Text;
 
             Connection SafetyAuditFormconn = Connection.GetInstanceOfConnection();
-            SafetyAuditFormconn.SaveToDb("INSERT INTO SafetyAuditForm (Site, Completed By, Work Area, Job Description, Supervisor, Inspector, Date, Type) Values (@Site, @CompletedBy, @WorkArea, @JobDescription, @Supervisor, @Inspector, @Date, @Type)", site, completedby, workarea, jobdescription, supervisor, inspector, date, type);
+            SafetyAuditFormconn.SaveToDb("INSERT INTO SafetyAuditForm (SiteName, CompletedBy, WorkArea, JobDescription, Supervisor, Inspector, InspectionDate, InspectionType) Values (@SiteName, @CompletedBy, @WorkArea, @JobDescription, @Supervisor, @Inspector, @InspectionDate, @InspectionType)", site, completedby, workarea, jobdescription, supervisor, inspector, date, type);
 
                      
         }
