@@ -330,7 +330,7 @@ namespace Musk_Assisgnment
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(97, 20);
             this.textBox11.TabIndex = 43;
-            this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
+            this.textBox11.TextChanged += new System.EventHandler(this.TextBox11_TextChanged);
             // 
             // textBox12
             // 
@@ -649,7 +649,7 @@ namespace Musk_Assisgnment
             this.button2.TabIndex = 83;
             this.button2.Text = " Back ";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
@@ -659,7 +659,7 @@ namespace Musk_Assisgnment
             this.button3.TabIndex = 84;
             this.button3.Text = "Save";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // Safety_Audit_Form
             // 

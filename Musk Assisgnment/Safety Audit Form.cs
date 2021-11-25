@@ -18,7 +18,7 @@ namespace Musk_Assisgnment
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Button4_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -36,22 +36,22 @@ namespace Musk_Assisgnment
             this.Show();
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void TableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void textBox11_TextChanged(object sender, EventArgs e)
+        private void TextBox11_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
             string site = sitetxt.Text;
             string completedby = completedtxt.Text;
@@ -62,8 +62,8 @@ namespace Musk_Assisgnment
             string date = datetxt.Text;
             string type = typetxt.Text;
 
-            Connection SafetyAuditFormconn = Connection.getInstanceOfConnection();
-            SafetyAuditFormconn.saveToDb("INSERT INTO SafetyAuditForm (Site, Completed By, Work Area, Job Description, Supervisor, Inspector, Date, Type) Values (@Site, @CompletedBy, @WorkArea, @JobDescription, @Supervisor, @Inspector, @Date, @Type)", site, completedby, workarea, jobdescription, supervisor, inspector, date, type);
+            Connection SafetyAuditFormconn = Connection.GetInstanceOfConnection();
+            SafetyAuditFormconn.SaveToDb("INSERT INTO SafetyAuditForm (Site, Completed By, Work Area, Job Description, Supervisor, Inspector, Date, Type) Values (@Site, @CompletedBy, @WorkArea, @JobDescription, @Supervisor, @Inspector, @Date, @Type)", site, completedby, workarea, jobdescription, supervisor, inspector, date, type);
 
                      
         }
