@@ -17,11 +17,11 @@ namespace Musk_Assisgnment
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             //returns the object of the Connection class
-            Connection SafetyAuditFormconn = Connection.getInstanceOfConnection();
-            DataSet datasetSafetyAuditForm = SafetyAuditFormconn.getDataSet("SELECT * FROM SafetyAuditForm");
+            Connection SafetyAuditFormconn = Connection.GetInstanceOfConnection();
+            DataSet datasetSafetyAuditForm = SafetyAuditFormconn.GetDataSet("SELECT * FROM SafetyAuditForm");
             dgvSAF.DataSource = datasetSafetyAuditForm.Tables[0];
 
         }

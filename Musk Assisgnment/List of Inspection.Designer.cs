@@ -63,7 +63,7 @@ namespace Musk_Assisgnment
             this.button2.TabIndex = 8;
             this.button2.Text = "Load Data";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // List_of_Inspection
             // 

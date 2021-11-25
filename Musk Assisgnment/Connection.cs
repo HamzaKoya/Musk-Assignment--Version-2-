@@ -26,14 +26,14 @@ namespace Musk_Assisgnment
         //Method 
         //Static Method that gives acsess to the private object
 
-        public static Connection getInstanceOfConnection()
+        public static Connection GetInstanceOfConnection()
         {
             if (_instance == null)
                 _instance = new Connection(); 
             return _instance;
         }
 
-        public DataSet getDataSet(string sqlQuery)
+        public DataSet GetDataSet(string sqlQuery)
         {
             //create the dataset object
             DataSet dataset = new DataSet();
@@ -55,7 +55,7 @@ namespace Musk_Assisgnment
         }
 
         // Method to save parameters into the database. 
-        public void saveToDb (string sqlQuery, string site, string completedby, string workarea, string jobdescription, string supervisor, string inspector, string date, string type)  
+        public void SaveToDb (string sqlQuery, string site, string completedby, string workarea, string jobdescription, string supervisor, string inspector, string date, string type)  
         {
             using (SqlConnection Connection = new SqlConnection (ConnectionString))
             {
