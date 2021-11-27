@@ -141,7 +141,7 @@ namespace Musk_Assisgnment
             this.linkLabel1.Location = new System.Drawing.Point(1296, 742);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(283, 38);
+            this.linkLabel1.Size = new System.Drawing.Size(0, 38);
             this.linkLabel1.TabIndex = 7;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Click += new System.EventHandler(this.ForgotPassword_labelLink);
@@ -161,6 +161,7 @@ namespace Musk_Assisgnment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(53)))), ((int)(((byte)(71)))));
             this.ClientSize = new System.Drawing.Size(2357, 1159);
             this.Controls.Add(this.button4);
