@@ -26,5 +26,10 @@ namespace Musk_Assisgnment
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
