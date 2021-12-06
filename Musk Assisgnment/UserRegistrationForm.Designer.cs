@@ -86,6 +86,7 @@ namespace Musk_Assisgnment
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(597, 60);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // label3
             // 
@@ -216,6 +217,7 @@ namespace Musk_Assisgnment
             this.button1.TabIndex = 15;
             this.button1.Text = "Signup";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -258,6 +260,7 @@ namespace Musk_Assisgnment
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserRegistrationForm";
+            this.Load += new System.EventHandler(this.UserRegistrationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

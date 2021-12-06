@@ -80,5 +80,39 @@ namespace Musk_Assisgnment
                 sqlCommand.ExecuteNonQuery();
             }
         }
+        public static Connection GetInstanceofConnection1()
+        {
+            if (_instance == null)
+                _instance = new Connection();
+            return _instance;
+        }
+        public DataSet GetDataSet(string sqlQuery)
+        {
+            DataSet dataSet1 = new DataSet();
+
+            using (SqlConnection connToConnection = new SqlConnection(ConnectionString))
+            {
+
+            }
+        }
+        public void SaveToDb1 (string sqlQuery, string firstname, string lastname, string username, string email, string password, string confirmpassword)
+        {
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                Connection.Open1();
+
+                SqlCommand sqlCommand = new SqlCommand(sqlQuery, connection);
+
+                sqlCommand.Parameters.Add(new SqlParameter("FirstName", firstname));
+                sqlCommand.Parameters.Add(new SqlParameter("LastName", lastname));
+                sqlCommand.Parameters.Add(new SqlParameter("Username", username));
+                sqlCommand.Parameters.Add(new SqlParameter("Email", email));
+                sqlCommand.Parameters.Add(new SqlParameter("Password", password));
+                sqlCommand.Parameters.Add(new SqlParameter("ConfirmPassword", confirmpassword));
+
+                sqlCommand.ExecuteNonQuery();
+
+            }
+        }
     }
 }
