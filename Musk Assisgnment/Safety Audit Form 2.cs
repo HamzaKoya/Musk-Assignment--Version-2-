@@ -24,5 +24,10 @@ namespace Musk_Assisgnment
             newSafetyAuditForm3.ShowDialog();
             this.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
