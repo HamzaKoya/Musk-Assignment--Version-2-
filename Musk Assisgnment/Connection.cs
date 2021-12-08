@@ -86,7 +86,7 @@ namespace Musk_Assisgnment
                 _instance = new Connection();
             return _instance;
         }
-        public DataSet GetDataSet(string sqlQuery)
+        public DataSet GetDataSet1(string sqlQuery)
         {
             DataSet dataSet1 = new DataSet();
 
@@ -94,6 +94,7 @@ namespace Musk_Assisgnment
             {
 
             }
+            return dataSet1;
         }
         public void SaveToDb1 (string sqlQuery, string firstname, string lastname, string username, string email, string password, string confirmpassword)
         {
