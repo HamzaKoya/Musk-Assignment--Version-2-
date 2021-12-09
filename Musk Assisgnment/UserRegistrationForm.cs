@@ -71,5 +71,15 @@ namespace Musk_Assisgnment
         {
             this.Close();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserRegistrationForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
