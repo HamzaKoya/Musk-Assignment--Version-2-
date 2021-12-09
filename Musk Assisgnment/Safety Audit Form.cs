@@ -165,5 +165,10 @@ namespace Musk_Assisgnment
         {
 
         }
+
+        private void sitetxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

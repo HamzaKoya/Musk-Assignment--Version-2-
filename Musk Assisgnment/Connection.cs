@@ -100,7 +100,7 @@ namespace Musk_Assisgnment
         {
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
-                Connection.Open1();
+                connection.Open();
 
                 SqlCommand sqlCommand = new SqlCommand(sqlQuery, connection);
 

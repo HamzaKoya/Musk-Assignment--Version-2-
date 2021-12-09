@@ -208,7 +208,7 @@ namespace Musk_Assisgnment
             // sitetxt
             // 
             this.sitetxt.Location = new System.Drawing.Point(220, 75);
-            this.sitetxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sitetxt.Margin = new System.Windows.Forms.Padding(4);
             this.sitetxt.Name = "sitetxt";
             this.sitetxt.Size = new System.Drawing.Size(415, 22);
             this.sitetxt.TabIndex = 20;
@@ -217,7 +217,7 @@ namespace Musk_Assisgnment
             // completedtxt
             // 
             this.completedtxt.Location = new System.Drawing.Point(881, 78);
-            this.completedtxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.completedtxt.Margin = new System.Windows.Forms.Padding(4);
             this.completedtxt.Name = "completedtxt";
             this.completedtxt.Size = new System.Drawing.Size(415, 22);
             this.completedtxt.TabIndex = 21;
@@ -225,7 +225,7 @@ namespace Musk_Assisgnment
             // supervisortxt
             // 
             this.supervisortxt.Location = new System.Drawing.Point(220, 151);
-            this.supervisortxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.supervisortxt.Margin = new System.Windows.Forms.Padding(4);
             this.supervisortxt.Name = "supervisortxt";
             this.supervisortxt.Size = new System.Drawing.Size(415, 22);
             this.supervisortxt.TabIndex = 22;
@@ -233,7 +233,7 @@ namespace Musk_Assisgnment
             // worktxt
             // 
             this.worktxt.Location = new System.Drawing.Point(220, 112);
-            this.worktxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.worktxt.Margin = new System.Windows.Forms.Padding(4);
             this.worktxt.Name = "worktxt";
             this.worktxt.Size = new System.Drawing.Size(415, 22);
             this.worktxt.TabIndex = 23;
@@ -241,7 +241,7 @@ namespace Musk_Assisgnment
             // jobtxt
             // 
             this.jobtxt.Location = new System.Drawing.Point(881, 114);
-            this.jobtxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.jobtxt.Margin = new System.Windows.Forms.Padding(4);
             this.jobtxt.Name = "jobtxt";
             this.jobtxt.Size = new System.Drawing.Size(415, 22);
             this.jobtxt.TabIndex = 24;
@@ -249,7 +249,7 @@ namespace Musk_Assisgnment
             // inspectortxt
             // 
             this.inspectortxt.Location = new System.Drawing.Point(881, 154);
-            this.inspectortxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.inspectortxt.Margin = new System.Windows.Forms.Padding(4);
             this.inspectortxt.Name = "inspectortxt";
             this.inspectortxt.Size = new System.Drawing.Size(415, 22);
             this.inspectortxt.TabIndex = 25;
@@ -257,7 +257,7 @@ namespace Musk_Assisgnment
             // datetxt
             // 
             this.datetxt.Location = new System.Drawing.Point(1436, 78);
-            this.datetxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.datetxt.Margin = new System.Windows.Forms.Padding(4);
             this.datetxt.Name = "datetxt";
             this.datetxt.Size = new System.Drawing.Size(216, 22);
             this.datetxt.TabIndex = 27;
@@ -265,7 +265,7 @@ namespace Musk_Assisgnment
             // typetxt
             // 
             this.typetxt.Location = new System.Drawing.Point(1436, 154);
-            this.typetxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.typetxt.Margin = new System.Windows.Forms.Padding(4);
             this.typetxt.Name = "typetxt";
             this.typetxt.Size = new System.Drawing.Size(216, 22);
             this.typetxt.TabIndex = 28;
@@ -273,7 +273,7 @@ namespace Musk_Assisgnment
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(1561, 732);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 46);
             this.button1.TabIndex = 29;
@@ -344,7 +344,7 @@ namespace Musk_Assisgnment
             // txtEW1
             // 
             this.txtEW1.Location = new System.Drawing.Point(617, 459);
-            this.txtEW1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEW1.Margin = new System.Windows.Forms.Padding(4);
             this.txtEW1.Name = "txtEW1";
             this.txtEW1.Size = new System.Drawing.Size(128, 22);
             this.txtEW1.TabIndex = 42;
@@ -352,7 +352,7 @@ namespace Musk_Assisgnment
             // txtCSW1
             // 
             this.txtCSW1.Location = new System.Drawing.Point(617, 420);
-            this.txtCSW1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCSW1.Margin = new System.Windows.Forms.Padding(4);
             this.txtCSW1.Name = "txtCSW1";
             this.txtCSW1.Size = new System.Drawing.Size(128, 22);
             this.txtCSW1.TabIndex = 43;
@@ -361,7 +361,7 @@ namespace Musk_Assisgnment
             // txtCer1
             // 
             this.txtCer1.Location = new System.Drawing.Point(617, 382);
-            this.txtCer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCer1.Margin = new System.Windows.Forms.Padding(4);
             this.txtCer1.Name = "txtCer1";
             this.txtCer1.Size = new System.Drawing.Size(128, 22);
             this.txtCer1.TabIndex = 44;
@@ -369,7 +369,7 @@ namespace Musk_Assisgnment
             // txtLO1
             // 
             this.txtLO1.Location = new System.Drawing.Point(617, 346);
-            this.txtLO1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLO1.Margin = new System.Windows.Forms.Padding(4);
             this.txtLO1.Name = "txtLO1";
             this.txtLO1.Size = new System.Drawing.Size(128, 22);
             this.txtLO1.TabIndex = 45;
@@ -377,7 +377,7 @@ namespace Musk_Assisgnment
             // txtWAH1
             // 
             this.txtWAH1.Location = new System.Drawing.Point(617, 309);
-            this.txtWAH1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtWAH1.Margin = new System.Windows.Forms.Padding(4);
             this.txtWAH1.Name = "txtWAH1";
             this.txtWAH1.Size = new System.Drawing.Size(128, 22);
             this.txtWAH1.TabIndex = 46;
@@ -385,7 +385,7 @@ namespace Musk_Assisgnment
             // txtEW3
             // 
             this.txtEW3.Location = new System.Drawing.Point(1283, 459);
-            this.txtEW3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEW3.Margin = new System.Windows.Forms.Padding(4);
             this.txtEW3.Name = "txtEW3";
             this.txtEW3.Size = new System.Drawing.Size(120, 22);
             this.txtEW3.TabIndex = 47;
@@ -393,7 +393,7 @@ namespace Musk_Assisgnment
             // txtCSW3
             // 
             this.txtCSW3.Location = new System.Drawing.Point(1283, 420);
-            this.txtCSW3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCSW3.Margin = new System.Windows.Forms.Padding(4);
             this.txtCSW3.Name = "txtCSW3";
             this.txtCSW3.Size = new System.Drawing.Size(120, 22);
             this.txtCSW3.TabIndex = 48;
@@ -401,7 +401,7 @@ namespace Musk_Assisgnment
             // txtCer3
             // 
             this.txtCer3.Location = new System.Drawing.Point(1283, 380);
-            this.txtCer3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCer3.Margin = new System.Windows.Forms.Padding(4);
             this.txtCer3.Name = "txtCer3";
             this.txtCer3.Size = new System.Drawing.Size(120, 22);
             this.txtCer3.TabIndex = 49;
@@ -409,7 +409,7 @@ namespace Musk_Assisgnment
             // txtLO3
             // 
             this.txtLO3.Location = new System.Drawing.Point(1283, 346);
-            this.txtLO3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLO3.Margin = new System.Windows.Forms.Padding(4);
             this.txtLO3.Name = "txtLO3";
             this.txtLO3.Size = new System.Drawing.Size(120, 22);
             this.txtLO3.TabIndex = 50;
@@ -417,7 +417,7 @@ namespace Musk_Assisgnment
             // txtWAH3
             // 
             this.txtWAH3.Location = new System.Drawing.Point(1283, 309);
-            this.txtWAH3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtWAH3.Margin = new System.Windows.Forms.Padding(4);
             this.txtWAH3.Name = "txtWAH3";
             this.txtWAH3.Size = new System.Drawing.Size(120, 22);
             this.txtWAH3.TabIndex = 51;
@@ -425,7 +425,7 @@ namespace Musk_Assisgnment
             // txtEW4
             // 
             this.txtEW4.Location = new System.Drawing.Point(1475, 459);
-            this.txtEW4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEW4.Margin = new System.Windows.Forms.Padding(4);
             this.txtEW4.Name = "txtEW4";
             this.txtEW4.Size = new System.Drawing.Size(145, 22);
             this.txtEW4.TabIndex = 52;
@@ -433,7 +433,7 @@ namespace Musk_Assisgnment
             // txtCSW4
             // 
             this.txtCSW4.Location = new System.Drawing.Point(1475, 420);
-            this.txtCSW4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCSW4.Margin = new System.Windows.Forms.Padding(4);
             this.txtCSW4.Name = "txtCSW4";
             this.txtCSW4.Size = new System.Drawing.Size(145, 22);
             this.txtCSW4.TabIndex = 53;
@@ -441,7 +441,7 @@ namespace Musk_Assisgnment
             // txtCer4
             // 
             this.txtCer4.Location = new System.Drawing.Point(1475, 382);
-            this.txtCer4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCer4.Margin = new System.Windows.Forms.Padding(4);
             this.txtCer4.Name = "txtCer4";
             this.txtCer4.Size = new System.Drawing.Size(145, 22);
             this.txtCer4.TabIndex = 54;
@@ -449,7 +449,7 @@ namespace Musk_Assisgnment
             // txtLO4
             // 
             this.txtLO4.Location = new System.Drawing.Point(1475, 346);
-            this.txtLO4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLO4.Margin = new System.Windows.Forms.Padding(4);
             this.txtLO4.Name = "txtLO4";
             this.txtLO4.Size = new System.Drawing.Size(145, 22);
             this.txtLO4.TabIndex = 55;
@@ -457,7 +457,7 @@ namespace Musk_Assisgnment
             // txtWAH4
             // 
             this.txtWAH4.Location = new System.Drawing.Point(1475, 309);
-            this.txtWAH4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtWAH4.Margin = new System.Windows.Forms.Padding(4);
             this.txtWAH4.Name = "txtWAH4";
             this.txtWAH4.Size = new System.Drawing.Size(145, 22);
             this.txtWAH4.TabIndex = 56;
@@ -465,7 +465,7 @@ namespace Musk_Assisgnment
             // txtWAH2
             // 
             this.txtWAH2.Location = new System.Drawing.Point(824, 309);
-            this.txtWAH2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtWAH2.Margin = new System.Windows.Forms.Padding(4);
             this.txtWAH2.Name = "txtWAH2";
             this.txtWAH2.Size = new System.Drawing.Size(388, 22);
             this.txtWAH2.TabIndex = 57;
@@ -474,7 +474,7 @@ namespace Musk_Assisgnment
             // txtCer2
             // 
             this.txtCer2.Location = new System.Drawing.Point(824, 382);
-            this.txtCer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCer2.Margin = new System.Windows.Forms.Padding(4);
             this.txtCer2.Name = "txtCer2";
             this.txtCer2.Size = new System.Drawing.Size(388, 22);
             this.txtCer2.TabIndex = 58;
@@ -482,7 +482,7 @@ namespace Musk_Assisgnment
             // txtCSW2
             // 
             this.txtCSW2.Location = new System.Drawing.Point(824, 418);
-            this.txtCSW2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCSW2.Margin = new System.Windows.Forms.Padding(4);
             this.txtCSW2.Name = "txtCSW2";
             this.txtCSW2.Size = new System.Drawing.Size(388, 22);
             this.txtCSW2.TabIndex = 59;
@@ -490,7 +490,7 @@ namespace Musk_Assisgnment
             // txtEW2
             // 
             this.txtEW2.Location = new System.Drawing.Point(824, 459);
-            this.txtEW2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEW2.Margin = new System.Windows.Forms.Padding(4);
             this.txtEW2.Name = "txtEW2";
             this.txtEW2.Size = new System.Drawing.Size(388, 22);
             this.txtEW2.TabIndex = 60;
@@ -498,7 +498,7 @@ namespace Musk_Assisgnment
             // txtLO2
             // 
             this.txtLO2.Location = new System.Drawing.Point(824, 346);
-            this.txtLO2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLO2.Margin = new System.Windows.Forms.Padding(4);
             this.txtLO2.Name = "txtLO2";
             this.txtLO2.Size = new System.Drawing.Size(388, 22);
             this.txtLO2.TabIndex = 61;
@@ -614,7 +614,7 @@ namespace Musk_Assisgnment
             // txtQCer1
             // 
             this.txtQCer1.Location = new System.Drawing.Point(617, 633);
-            this.txtQCer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtQCer1.Margin = new System.Windows.Forms.Padding(4);
             this.txtQCer1.Name = "txtQCer1";
             this.txtQCer1.Size = new System.Drawing.Size(124, 22);
             this.txtQCer1.TabIndex = 71;
@@ -622,7 +622,7 @@ namespace Musk_Assisgnment
             // txtPap1
             // 
             this.txtPap1.Location = new System.Drawing.Point(617, 596);
-            this.txtPap1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPap1.Margin = new System.Windows.Forms.Padding(4);
             this.txtPap1.Name = "txtPap1";
             this.txtPap1.Size = new System.Drawing.Size(128, 22);
             this.txtPap1.TabIndex = 72;
@@ -630,7 +630,7 @@ namespace Musk_Assisgnment
             // txtSSA1
             // 
             this.txtSSA1.Location = new System.Drawing.Point(617, 558);
-            this.txtSSA1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSSA1.Margin = new System.Windows.Forms.Padding(4);
             this.txtSSA1.Name = "txtSSA1";
             this.txtSSA1.Size = new System.Drawing.Size(128, 22);
             this.txtSSA1.TabIndex = 73;
@@ -638,7 +638,7 @@ namespace Musk_Assisgnment
             // txtQCer2
             // 
             this.txtQCer2.Location = new System.Drawing.Point(824, 634);
-            this.txtQCer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtQCer2.Margin = new System.Windows.Forms.Padding(4);
             this.txtQCer2.Name = "txtQCer2";
             this.txtQCer2.Size = new System.Drawing.Size(388, 22);
             this.txtQCer2.TabIndex = 74;
@@ -646,7 +646,7 @@ namespace Musk_Assisgnment
             // txtPap2
             // 
             this.txtPap2.Location = new System.Drawing.Point(824, 597);
-            this.txtPap2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPap2.Margin = new System.Windows.Forms.Padding(4);
             this.txtPap2.Name = "txtPap2";
             this.txtPap2.Size = new System.Drawing.Size(388, 22);
             this.txtPap2.TabIndex = 75;
@@ -654,7 +654,7 @@ namespace Musk_Assisgnment
             // txtSSA2
             // 
             this.txtSSA2.Location = new System.Drawing.Point(824, 558);
-            this.txtSSA2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSSA2.Margin = new System.Windows.Forms.Padding(4);
             this.txtSSA2.Name = "txtSSA2";
             this.txtSSA2.Size = new System.Drawing.Size(388, 22);
             this.txtSSA2.TabIndex = 76;
@@ -662,7 +662,7 @@ namespace Musk_Assisgnment
             // txtQCer3
             // 
             this.txtQCer3.Location = new System.Drawing.Point(1283, 634);
-            this.txtQCer3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtQCer3.Margin = new System.Windows.Forms.Padding(4);
             this.txtQCer3.Name = "txtQCer3";
             this.txtQCer3.Size = new System.Drawing.Size(120, 22);
             this.txtQCer3.TabIndex = 77;
@@ -670,7 +670,7 @@ namespace Musk_Assisgnment
             // txtPap3
             // 
             this.txtPap3.Location = new System.Drawing.Point(1283, 596);
-            this.txtPap3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPap3.Margin = new System.Windows.Forms.Padding(4);
             this.txtPap3.Name = "txtPap3";
             this.txtPap3.Size = new System.Drawing.Size(120, 22);
             this.txtPap3.TabIndex = 78;
@@ -678,7 +678,7 @@ namespace Musk_Assisgnment
             // txtSSA3
             // 
             this.txtSSA3.Location = new System.Drawing.Point(1283, 558);
-            this.txtSSA3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSSA3.Margin = new System.Windows.Forms.Padding(4);
             this.txtSSA3.Name = "txtSSA3";
             this.txtSSA3.Size = new System.Drawing.Size(120, 22);
             this.txtSSA3.TabIndex = 79;
@@ -686,7 +686,7 @@ namespace Musk_Assisgnment
             // txtQCer4
             // 
             this.txtQCer4.Location = new System.Drawing.Point(1475, 634);
-            this.txtQCer4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtQCer4.Margin = new System.Windows.Forms.Padding(4);
             this.txtQCer4.Name = "txtQCer4";
             this.txtQCer4.Size = new System.Drawing.Size(145, 22);
             this.txtQCer4.TabIndex = 80;
@@ -694,7 +694,7 @@ namespace Musk_Assisgnment
             // txtPap4
             // 
             this.txtPap4.Location = new System.Drawing.Point(1475, 596);
-            this.txtPap4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPap4.Margin = new System.Windows.Forms.Padding(4);
             this.txtPap4.Name = "txtPap4";
             this.txtPap4.Size = new System.Drawing.Size(145, 22);
             this.txtPap4.TabIndex = 81;
@@ -702,7 +702,7 @@ namespace Musk_Assisgnment
             // txtSSA4
             // 
             this.txtSSA4.Location = new System.Drawing.Point(1475, 558);
-            this.txtSSA4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSSA4.Margin = new System.Windows.Forms.Padding(4);
             this.txtSSA4.Name = "txtSSA4";
             this.txtSSA4.Size = new System.Drawing.Size(145, 22);
             this.txtSSA4.TabIndex = 82;
@@ -710,7 +710,7 @@ namespace Musk_Assisgnment
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(16, 732);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 46);
             this.button2.TabIndex = 83;
@@ -721,7 +721,7 @@ namespace Musk_Assisgnment
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(1436, 732);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(112, 46);
             this.button3.TabIndex = 84;
@@ -801,7 +801,7 @@ namespace Musk_Assisgnment
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Safety_Audit_Form";
             this.Text = "Safety_Audit_Form";
             this.Load += new System.EventHandler(this.Safety_Audit_Form_Load);
