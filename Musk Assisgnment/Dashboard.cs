@@ -29,9 +29,9 @@ namespace Musk_Assisgnment
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Safety_Audit_Form newSafetyAuditForm = new Safety_Audit_Form();
+            Safety_Audit_Form sf = new Safety_Audit_Form();
             this.Hide();
-            newSafetyAuditForm.ShowDialog();
+            sf.ShowDialog();
             this.Show();
         }
 

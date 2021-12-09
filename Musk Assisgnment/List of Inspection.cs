@@ -21,8 +21,13 @@ namespace Musk_Assisgnment
         {
             //returns the object of the Connection class
             Connection SafetyAuditFormconn = Connection.GetInstanceOfConnection();
-            DataSet datasetSafetyAuditForm = SafetyAuditFormconn.GetDataSet("SELECT * FROM SafetyAuditForm");
+            DataSet datasetSafetyAuditForm = SafetyAuditFormconn.GetDataSet(Constant.SELECTALL);
             dgvSAF.DataSource = datasetSafetyAuditForm.Tables[0];
+
+        }
+
+        private void List_of_Inspection_Load(object sender, EventArgs e)
+        {
 
         }
     }

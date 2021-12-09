@@ -55,7 +55,7 @@ namespace Musk_Assisgnment
         }
 
         // Method to save parameters into the database. 
-        public void SaveToDb (string sqlQuery, string site, string completedby, string workarea, string jobdescription, string supervisor, string inspector, string date, string type)  
+        public void SaveToDb (string sqlQuery, string Site, string Completed_By, string Work_Area, string Job_Description, string Supervisor, string Inspector, string Date, string Type)  
         {
             using (SqlConnection Connection = new SqlConnection (ConnectionString))
             {
@@ -67,18 +67,22 @@ namespace Musk_Assisgnment
                 //set sqlCommand's properties 
                 sqlCommand.CommandType = CommandType.Text;
 
-                sqlCommand.Parameters.Add(new SqlParameter("SiteName", site));
-                sqlCommand.Parameters.Add(new SqlParameter("CompletedBy", completedby));
-                sqlCommand.Parameters.Add(new SqlParameter("WorkArea", workarea));
-                sqlCommand.Parameters.Add(new SqlParameter("JobDescription", jobdescription));
-                sqlCommand.Parameters.Add(new SqlParameter("Supervisor", supervisor));
-                sqlCommand.Parameters.Add(new SqlParameter("Inspector", inspector));
-                sqlCommand.Parameters.Add(new SqlParameter("InspectionDate", date));
-                sqlCommand.Parameters.Add(new SqlParameter("InspectionType", type));
+                sqlCommand.Parameters.Add(new SqlParameter("Site", Site));
+                sqlCommand.Parameters.Add(new SqlParameter("Completed_By", Completed_By));
+                sqlCommand.Parameters.Add(new SqlParameter("Work_Area", Work_Area));
+                sqlCommand.Parameters.Add(new SqlParameter("Job_Description", Job_Description));
+                sqlCommand.Parameters.Add(new SqlParameter("Supervisor", Supervisor));
+                sqlCommand.Parameters.Add(new SqlParameter("Inspector", Inspector));
+                sqlCommand.Parameters.Add(new SqlParameter("Date", Date));
+                sqlCommand.Parameters.Add(new SqlParameter("Type", Type));
 
                 //Execute the command
                 sqlCommand.ExecuteNonQuery();
             }
         }
+
+     
     }
 }
+    
+
