@@ -212,6 +212,7 @@ namespace Musk_Assisgnment
             this.sitetxt.Name = "sitetxt";
             this.sitetxt.Size = new System.Drawing.Size(415, 22);
             this.sitetxt.TabIndex = 20;
+            this.sitetxt.TextChanged += new System.EventHandler(this.sitetxt_TextChanged);
             // 
             // completedtxt
             // 

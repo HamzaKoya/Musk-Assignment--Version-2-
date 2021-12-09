@@ -55,7 +55,7 @@ namespace Musk_Assisgnment
         }
 
         // Method to save parameters into the database. 
-        public void SaveToDb (string sqlQuery, string Site, string Completed_By, string Work_Area, string Job_Description, string Supervisor, string Inspector, string Date, string Type)  
+        public void SaveToDb (string sqlQuery, string site, string completedby, string workarea, string jobdescription, string supervisor, string inspector, string date, string type)  
         {
             using (SqlConnection Connection = new SqlConnection (ConnectionString))
             {
@@ -67,22 +67,53 @@ namespace Musk_Assisgnment
                 //set sqlCommand's properties 
                 sqlCommand.CommandType = CommandType.Text;
 
-                sqlCommand.Parameters.Add(new SqlParameter("Site", Site));
-                sqlCommand.Parameters.Add(new SqlParameter("Completed_By", Completed_By));
-                sqlCommand.Parameters.Add(new SqlParameter("Work_Area", Work_Area));
-                sqlCommand.Parameters.Add(new SqlParameter("Job_Description", Job_Description));
-                sqlCommand.Parameters.Add(new SqlParameter("Supervisor", Supervisor));
-                sqlCommand.Parameters.Add(new SqlParameter("Inspector", Inspector));
-                sqlCommand.Parameters.Add(new SqlParameter("Date", Date));
-                sqlCommand.Parameters.Add(new SqlParameter("Type", Type));
+                sqlCommand.Parameters.Add(new SqlParameter("SiteName", site));
+                sqlCommand.Parameters.Add(new SqlParameter("CompletedBy", completedby));
+                sqlCommand.Parameters.Add(new SqlParameter("WorkArea", workarea));
+                sqlCommand.Parameters.Add(new SqlParameter("JobDescription", jobdescription));
+                sqlCommand.Parameters.Add(new SqlParameter("Supervisor", supervisor));
+                sqlCommand.Parameters.Add(new SqlParameter("Inspector", inspector));
+                sqlCommand.Parameters.Add(new SqlParameter("InspectionDate", date));
+                sqlCommand.Parameters.Add(new SqlParameter("InspectionType", type));
 
                 //Execute the command
                 sqlCommand.ExecuteNonQuery();
             }
         }
+        public static Connection GetInstanceofConnection1()
+        {
+            if (_instance == null)
+                _instance = new Connection();
+            return _instance;
+        }
+        public DataSet GetDataSet1(string sqlQuery)
+        {
+            DataSet dataSet1 = new DataSet();
 
-     
+            using (SqlConnection connToConnection = new SqlConnection(ConnectionString))
+            {
+
+            }
+            return dataSet1;
+        }
+        public void SaveToDb1 (string sqlQuery, string firstname, string lastname, string username, string email, string password, string confirmpassword)
+        {
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                Connection.Open1();
+
+                SqlCommand sqlCommand = new SqlCommand(sqlQuery, connection);
+
+                sqlCommand.Parameters.Add(new SqlParameter("FirstName", firstname));
+                sqlCommand.Parameters.Add(new SqlParameter("LastName", lastname));
+                sqlCommand.Parameters.Add(new SqlParameter("Username", username));
+                sqlCommand.Parameters.Add(new SqlParameter("Email", email));
+                sqlCommand.Parameters.Add(new SqlParameter("Password", password));
+                sqlCommand.Parameters.Add(new SqlParameter("ConfirmPassword", confirmpassword));
+
+                sqlCommand.ExecuteNonQuery();
+
+            }
+        }
     }
 }
-    
-
