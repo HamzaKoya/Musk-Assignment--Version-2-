@@ -348,5 +348,10 @@ namespace Musk_Assisgnment
         {
             this.Close();
         }
+
+        private void txtCV1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -176,6 +176,7 @@ namespace Musk_Assisgnment
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "Form1";
             this.Text = "Log in";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -33,5 +33,16 @@ namespace Musk_Assisgnment.Properties {
                 return ((string)(this["ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"Z:\\Musk Assignment V2\\Musk Assisgnment\\D" +
+            "atabase1.mdf\"")]
+        public string ConnectionString1 {
+            get {
+                return ((string)(this["ConnectionString1"]));
+            }
+        }
     }
 }
