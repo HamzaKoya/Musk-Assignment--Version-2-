@@ -89,72 +89,72 @@ namespace Musk_Assisgnment
             newSafetyAuditForm3.ShowDialog();
 
 
-          //Text box input from C.Site Rules
-          InterventionsHW = txtHW1.Text;
-          CommentHW = txtHW4.Text;
-          CompletedHW = txtHW4.Text;
-          ActionTakenHW = txtHW4.Text;
+            //Text box input from C.Site Rules
+            SafetyAuditFormData.InterventionsHW = txtHW1.Text;
+            SafetyAuditFormData.CommentHW = txtHW4.Text;
+            SafetyAuditFormData.CompletedHW = txtHW4.Text;
+            SafetyAuditFormData.ActionTakenHW = txtHW4.Text;
 
-          InterventionsIso = txtIso1.Text;
-          CommentIso = txtIso2.Text;
-          CompletedIso = txtIso3.Text;
-          ActionTakenIso = txtIso4.Text;
-          
-          InterventionsFER = txtFER1.Text;
-          CommentFER = txtFER2.Text;
-          CompletedFER = txtFER3.Text;
-          ActionTakenFER = txtFER4.Text;
+            SafetyAuditFormData.InterventionsIso = txtIso1.Text;
+            SafetyAuditFormData.CommentIso = txtIso2.Text;
+            SafetyAuditFormData.CompletedIso = txtIso3.Text;
+            SafetyAuditFormData.ActionTakenIso = txtIso4.Text;
 
-          InterventionsAwa = txtAwa1.Text;
-          CommentAwa = txtAwa2.Text;
-          CompletedAwa = txtAwa2.Text;
-          ActionTakenAwa = txtAwa3.Text;
+            SafetyAuditFormData.InterventionsFER = txtFER1.Text;
+            SafetyAuditFormData.CommentFER = txtFER2.Text;
+            SafetyAuditFormData.CompletedFER = txtFER3.Text;
+            SafetyAuditFormData.ActionTakenFER = txtFER4.Text;
 
-          //Text box input from D.Enviornment
-          InterventionsWM = txtWM1.Text;
-          CommentWM = txtWM2.Text;
-          CompletedWM = txtWM3.Text;
-          ActionTakenWM = txtWM4.Text;
+            SafetyAuditFormData.InterventionAwa = txtAwa1.Text;
+            SafetyAuditFormData.CommentAwa = txtAwa2.Text;
+            SafetyAuditFormData.CompletedAwa = txtAwa2.Text;
+            SafetyAuditFormData.ActionTakenAwa = txtAwa3.Text;
 
-          InterventionsPM = txtPM1.Text;
-          CommentPM = txtPM2.Text;
-          CompletedPM = txtPM3.Text;
-          ActionTakenPM = txtPM4.Text;
-          
-          InterventionsCOH = txtCOH1.Text;
-          CommentCOH = txtCOH2.Text;
-          CompletedCOH = txtCOH3.Text;
-          ActionTakenCOH = txtCOH4.Text;
-          
-          InterventionsPPE = txtPPE1.Text;
-          CommentPPE = txtPPE2.Text;
-          CompletedPPE = txtPPE3.Text;
-          ActionTakenPPE = txtPPE4.Text;
-            
-          InterventionsMH = txtMH1.Text;
-          CommentMH = txtMH2.Text;
-          CompletedMH = txtMH3.Text;
-          ActionTakenMH = txtMH4.Text;
+            //Text box input from D.Enviornment
+            SafetyAuditFormData.InterventionsWM = txtWM1.Text;
+            SafetyAuditFormData.CommentWM = txtWM2.Text;
+            SafetyAuditFormData.CompletedWM = txtWM3.Text;
+            SafetyAuditFormData.ActionTakenWM = txtWM4.Text;
 
-          InterventionsOC = txtOC1.Text;
-          CommentOC = txtOC2.Text;
-          CompletedOC = txtOC3.Text;
-          ActionTakenOC = txtOC4.Text;
-            
-          InterventionsPT = txtPT1.Text;
-          CommentPT = txtPT2.Text;
-          CompletedPT = txtPT3.Text;
-          ActionTakenPT = txtPT4.Text;
-            
-          InterventionsVDC = txtVDC1.Text;
-          CommentVDC = txtVDC2.Text;
-          CompletedVDC = txtVDC3.Text;
-          ActionTakenVDC = txtVDC4.Text;
-            
-          InterventionsTUF = txtTUF1.Text;
-          CommentTUF = txtTUF2.Text;
-          CompletedTUF = txtTUF3.Text;
-          ActionTakenTUF = txtTUF4.Text;
+            SafetyAuditFormData.InterventionsPM = txtPM1.Text;
+            SafetyAuditFormData.CommentPM = txtPM2.Text;
+            SafetyAuditFormData.CompletedPM = txtPM3.Text;
+            SafetyAuditFormData.ActionTakenPM = txtPM4.Text;
+
+            SafetyAuditFormData.InterventionsCOH = txtCOH1.Text;
+            SafetyAuditFormData.CommentCOH = txtCOH2.Text;
+            SafetyAuditFormData.CompletedCOH = txtCOH3.Text;
+            SafetyAuditFormData.ActionTakenCOH = txtCOH4.Text;
+
+            SafetyAuditFormData.InterventionsPPE = txtPPE1.Text;
+            SafetyAuditFormData.CommentPPE = txtPPE2.Text;
+            SafetyAuditFormData.CompletedPPE = txtPPE3.Text;
+            SafetyAuditFormData.ActionTakenPPE = txtPPE4.Text;
+
+            SafetyAuditFormData.InterventionsMH = txtMH1.Text;
+            SafetyAuditFormData.CommentMH = txtMH2.Text;
+            SafetyAuditFormData.CompletedMH = txtMH3.Text;
+            SafetyAuditFormData.ActionTakenMH = txtMH4.Text;
+
+            SafetyAuditFormData.InterventionsOC = txtOC1.Text;
+            SafetyAuditFormData.CommentOC = txtOC2.Text;
+            SafetyAuditFormData.CompletedOC = txtOC3.Text;
+            SafetyAuditFormData.ActionTakenOC = txtOC4.Text;
+
+            SafetyAuditFormData.InterventionsPT = txtPT1.Text;
+            SafetyAuditFormData.CommentPT = txtPT2.Text;
+            SafetyAuditFormData.CompletedPT = txtPT3.Text;
+            SafetyAuditFormData.ActionTakenPT = txtPT4.Text;
+
+            SafetyAuditFormData.InterventionsVDC = txtVDC1.Text;
+            SafetyAuditFormData.CommentVDC = txtVDC2.Text;
+            SafetyAuditFormData.CompletedVDC = txtVDC3.Text;
+            SafetyAuditFormData.ActionTakenVDC = txtVDC4.Text;
+
+            SafetyAuditFormData.InterventionsTUF = txtTUF1.Text;
+            SafetyAuditFormData.CommentTUF = txtTUF2.Text;
+            SafetyAuditFormData.CompletedTUF = txtTUF3.Text;
+            SafetyAuditFormData.ActionTakenTUF = txtTUF4.Text;
             
         }
 

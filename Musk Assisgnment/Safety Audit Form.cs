@@ -24,7 +24,7 @@ namespace Musk_Assisgnment
         public string Type;
 
         //2nd table
-      //  public string InterventionsWAH;
+      /*//  public string InterventionsWAH;
         public string CommentWAH ;
         public string CompletedWAH;
         public string ActionTakenWAH;
@@ -63,7 +63,7 @@ namespace Musk_Assisgnment
         public string CommentQCer;
         public string CompletedQCer;
         public string ActionTakenQCer;
-
+*/
         
         public Safety_Audit_Form()
         {
@@ -88,42 +88,42 @@ namespace Musk_Assisgnment
            newSafetyAuditForm2.Show();
 
            SafetyAuditFormData.InterventionsWAH = txtWAH1.Text;
-           CommentWAH = txtWAH2.Text;
-           CompletedWAH = txtWAH3.Text;
-           ActionTakenWAH = txtWAH4.Text;
+            SafetyAuditFormData.CommentWAH = txtWAH2.Text;
+            SafetyAuditFormData.CompletedWAH = txtWAH3.Text;
+            SafetyAuditFormData.ActionTakenWAH = txtWAH4.Text;
 
-           InterventionsLO = txtLO1.Text;
-           CommentLO = txtLO2.Text;
-           CompletedLO = txtLO3.Text;
-           ActionTakenLO = txtLO4.Text;
+            SafetyAuditFormData.InterventionsLO = txtLO1.Text;
+            SafetyAuditFormData.CommentLO = txtLO2.Text;
+            SafetyAuditFormData.CompletedLO = txtLO3.Text;
+            SafetyAuditFormData.ActionTakenLO = txtLO4.Text;
 
-           InterventionsCer = txtCer1.Text;
-           CommentCer = txtCer2.Text;
-           CompletedCer = txtCer3.Text;
-           ActionTakenCer = txtCer4.Text;
+            SafetyAuditFormData.InterventionsCer = txtCer1.Text;
+            SafetyAuditFormData.CommentCer = txtCer2.Text;
+            SafetyAuditFormData.CompletedCer = txtCer3.Text;
+            SafetyAuditFormData.ActionTakenCer = txtCer4.Text;
 
-           InterventionsCSW = txtCSW1.Text;
-           CommentCSW = txtCSW2.Text;
-           CompletedCSW = txtCSW3.Text;
-           ActionTakenCSW = txtCSW4.Text;
+            SafetyAuditFormData.InterventionsCSW = txtCSW1.Text;
+            SafetyAuditFormData.CommentCSW = txtCSW2.Text;
+            SafetyAuditFormData.CompletedCSW = txtCSW3.Text;
+            SafetyAuditFormData.ActionTakenCSW = txtCSW4.Text;
 
-           InterventionsEW = txtEW1.Text;
-           CommentEW = txtEW2.Text;
-           CompletedEW = txtEW3.Text;
-           ActionTakenEW = txtEW4.Text;
-           InterventionsSSA = txtSSA1.Text;
-           CommentSSA = txtSSA2.Text;
-           CompletedSSA = txtSSA3.Text;
-           ActionTakenSSA = txtSSA4.Text;
+            SafetyAuditFormData.InterventionsEW = txtEW1.Text;
+            SafetyAuditFormData.CommentEW = txtEW2.Text;
+            SafetyAuditFormData.CompletedEW = txtEW3.Text;
+            SafetyAuditFormData.ActionTakenEW = txtEW4.Text;
+            SafetyAuditFormData.InterventionsSSA = txtSSA1.Text;
+            SafetyAuditFormData.CommentSSA = txtSSA2.Text;
+            SafetyAuditFormData.CompletedSSA = txtSSA3.Text;
+            SafetyAuditFormData.ActionTakenSSA = txtSSA4.Text;
 
-           InterventionPap = txtPap1.Text;
-           CommentPap = txtPap2.Text;
-           CompletedPap = txtPap3.Text;
-           ActionTakentxtPap = txtPap4.Text;
-           InterventionQCer = txtQCer1.Text;
-           CommentQCer = txtQCer2.Text;
-           CompletedQCer = txtQCer3.Text;
-           ActionTakenQCer= txtQCer4.Text;
+            SafetyAuditFormData.InterventionPap = txtPap1.Text;
+            SafetyAuditFormData.CommentPap = txtPap2.Text;
+            SafetyAuditFormData.CompletedPap = txtPap3.Text;
+            SafetyAuditFormData.ActionTakentxtPap = txtPap4.Text;
+            SafetyAuditFormData.InterventionQCer = txtQCer1.Text;
+            SafetyAuditFormData.CommentQCer = txtQCer2.Text;
+            SafetyAuditFormData.CompletedQCer = txtQCer3.Text;
+            SafetyAuditFormData.ActionTakenQCer = txtQCer4.Text;
 
            /* Connection SafetyAuditFormconn = Connection.GetInstanceOfConnection();
             SafetyAuditFormconn.SaveToDb2("INSERT INTO SafetyAuditForm_1 (Interventions, Comment, Completed, ActionTaken) Values (@Interventions, @Comment, @Completed, @ActionTaken)", InterventionsWAH,CommentWAH,CompletedWAH,ActionTakenWAH);*/
