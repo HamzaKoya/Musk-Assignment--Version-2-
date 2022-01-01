@@ -77,7 +77,7 @@ namespace Musk_Assisgnment
         public string CommentTUF;
         public string CompletedTUF;
         public string ActionTakenTUF;
-                public Safety_Audit_Form_2()
+        public Safety_Audit_Form_2()
         {
             InitializeComponent();
         }

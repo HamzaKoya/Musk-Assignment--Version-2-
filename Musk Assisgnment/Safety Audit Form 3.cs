@@ -62,7 +62,7 @@ namespace Musk_Assisgnment
 
             //Creating a pdf file in specific path
 
-            System.IO.FileStream fs = new FileStream(@"TempforTest9", FileMode.Create, FileAccess.Write, FileShare.None);
+            System.IO.FileStream fs = new FileStream(@"TempforTest10", FileMode.Create, FileAccess.Write, FileShare.None);
             Document doc = new Document();
             doc.SetPageSize(iTextSharp.text.PageSize.A4);
             PdfWriter writer = PdfWriter.GetInstance(doc, fs);
@@ -311,7 +311,7 @@ namespace Musk_Assisgnment
             writer.Close();
             fs.Close();
 
-            System.Diagnostics.Process.Start(@"TempforTest9");
+            System.Diagnostics.Process.Start(@"TempforTest10");
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
 
             Application.Exit();

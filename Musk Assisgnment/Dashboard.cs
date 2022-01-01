@@ -21,10 +21,20 @@ namespace Musk_Assisgnment
         {
 
         }
-
+        
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if(MessageBox.Show("Are you Sure","Alert",MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                Form1 f1 = new Form1();
+                f1.Show();
+            }
+            else
+            {
+               
+            }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -148,6 +148,7 @@ namespace Musk_Assisgnment
             // 
             // button4
             // 
+            this.button4.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button4.Location = new System.Drawing.Point(2101, 1042);
             this.button4.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button4.Name = "button4";
@@ -163,6 +164,7 @@ namespace Musk_Assisgnment
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(53)))), ((int)(((byte)(71)))));
+            this.CancelButton = this.button4;
             this.ClientSize = new System.Drawing.Size(2357, 1159);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.linkLabel1);
